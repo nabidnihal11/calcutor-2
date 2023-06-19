@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    background: #e7d4d4;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    background: #e4d5d5;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: repeat(4, 68px);
+}
+input{
+    grid-column: span 4;
+    height: 70px;
+    width: 260px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 10px;
+    color: rgb(70, 70, 70);
+    font-size: 50px;
+    text-align: end;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+button{
+    width: 38px;
+    height: 38px;
+    background: #e7e3e3;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    border: none;
+    font-size: 16px;
+    border-radius: 50%;
+}
+
+.equal{
+    width: 88px;
+    border-radius: 40px; 
+    background: #e7e3e3;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
+
+
+
